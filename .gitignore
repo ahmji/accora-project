@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Build output
+frontend/dist/
+
+# Electron packaging output
+frontend/release/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Databases & Local State
+*.db
+*.sqlite
+*.sqlite3
+accora.db
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Scratch
+extracted_*
+
+
+scratch/
